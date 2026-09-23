@@ -1,46 +1,47 @@
 # Práctica 2: Guardar los números pares
 ## 1. Descripción del problema (Fase 1)
-<!-- Explica con tus palabras qué hace tu programa y para qué serviría en la vida real. Máximo 4 líneas. -->
+Escribir un programa que pida 5 numeros enteros uno por uno y que solo guarde los numeros pares y descarte los impares y al final mostrar cuantos pares encontro y cuales son.
+En la vida real podria servir en una fabrica para guardar solo las piezas que pasen el control de calidad.
 
-_____
+
 
 ## 2. Entradas y salidas (Fase 1)
-<!-- Define cada entrada y cada salida, con su tipo de dato y su objetivo. -->
+
 
 **Entradas:**
-1. _____
+1. 5 numeros enteros
 
 **Salidas:**
-1. _____
-2. _____
+1. Cuantos pares encontro
+2. Cuales son los pares 
 
 ## 3. Restricciones e invariante (Fase 1 y 2)
 
 **Restricciones** (¿qué debe cumplirse?):
-- _____
-- _____
+- 5 numeros 
+- Los numeros deben ser enteros 
 
 **Tamaño del arreglo y por qué** (piensa en el peor caso):
-_____
+Si los 5 numeros son pares se guardarian todos asi que se ocuparian las 5 cajitas ese seria el peor de los casos
 
 **¿El 0 y los negativos son pares? ¿Por qué?**
-_____
+si, por que cumplen con la regla de alternancia numerica
 
 **Invariante** (¿qué es verdad después de cada vuelta del ciclo?):
-_____
+total de pares es la cantidad de pares que se han guardado
 
 ## 4. Casos resueltos a mano (Fase 1)
 
 | Caso | Números | Pares guardados | Posición de cada par |
 |---|---|---|---|
-| 1 | 3, 8, 5, 2, 7 | _____ | _____ |
-| 2 | _____ | _____ | _____ |
-| 3 | _____ | _____ | _____ |
+| 1 | 3, 8, 5, 2, 7 | 8, 2 | 0, 1 |
+| 2 | 2, 4, 6, 8, 10 | 2, 4, 6, 8, 10 | 0, 1, 2, 3, 4 |
+| 3 | 2, 3, 4, 5, 6 | 2, 4, 6 | 0, 1, 2 |
 
 ## 5. Receta en pseudocódigo (Fase 2)
 <!-- Tu receta va en el archivo RECETA.md. Aquí solo responde las dos preguntas. -->
 
-**¿Probé mi receta a mano con un caso?** Sí / No
+**¿Probé mi receta a mano con un caso?** No
 **¿Tuve que corregirla?** _____
 
 ## 6. Cómo compilar y ejecutar (Fase 3)
