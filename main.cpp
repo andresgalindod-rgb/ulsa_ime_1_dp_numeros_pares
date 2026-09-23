@@ -19,6 +19,8 @@ int main() {
     //    TODO: lee cada número con leerEntero("Escribe un numero: ")
     //    TODO: si el número es par, guárdalo en la siguiente posición libre
     //    ¿Qué variable te dice cuál es la siguiente posición libre?
+int contador = 0;
+while (contador < CANTIDAD) {
  int numero = leerEntero("Escribe un numero:");
  std::cout << "Escribiste: " << numero << "\n";
  if (numero % 2 == 0) {
@@ -26,7 +28,8 @@ int main() {
  } else {
     std::cout << "Es impar\n";
  }
- 
+ contador = contador + 1;
+ }
  
     // 4. Salida
     //    TODO: muestra cuántos pares se guardaron
