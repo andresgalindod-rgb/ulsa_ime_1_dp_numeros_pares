@@ -21,6 +21,13 @@ int main() {
     //    ¿Qué variable te dice cuál es la siguiente posición libre?
  int numero = leerEntero("Escribe un numero:");
  std::cout << "Escribiste: " << numero << "\n";
+ if (numero % 2 == 0) {
+    std::cout << "Es par\n";
+ } else {
+    std::cout << "Es impar\n";
+ }
+ 
+ 
     // 4. Salida
     //    TODO: muestra cuántos pares se guardaron
     //    TODO: recorre el arreglo e imprime cada par
