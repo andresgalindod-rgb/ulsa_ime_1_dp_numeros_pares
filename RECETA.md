@@ -11,6 +11,7 @@
        FIN SI
        contador ← contador+1
    FIN MIENTRAS
+<<<<<<< HEAD
 5. Mostrar "Pares encontrados: " y totalPares
 6. i ← 0
 7. MIENTRAS i< totalPares HACER
